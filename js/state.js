@@ -6,7 +6,7 @@ function getCapital(state) {
             capital = 'Rio de Janeiro'
             break
         case 'SP':
-            capital = "São Paulo"
+            capital = 'São Paulo'
             break
         case 'MG':
             capital = 'Belo Horizonte'
