@@ -14,9 +14,17 @@ const max = (...values) => Math.max(...values)
 max(10, 20, 30 ,40, 50)
 
 // Concat arrays
-const mergeValues = (arr, arr2) => [...arr,...arr2]
+const mergeValues = (values, values2) => [...values,...values2]
 mergeValues([1,2,3], [4,5,6,7,8])
 
 // Copy an array without keep references
-const copyValues = (arr) => [...arr]
+const copyValues = (values) => [...values]
 copyValues(['a', 'b', 'c'])
+
+
+
+
+
+
+
+
