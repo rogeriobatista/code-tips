@@ -2,7 +2,7 @@
 LC_ALL=C
 
 echo "Running Tests"
-./.githooks/run-tests.bash
+./.git/hooks/run-tests.bash
 
 if [ $? -ne 0 ]; then
   echo "Tests must pass before commit!"
