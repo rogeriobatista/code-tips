@@ -1,4 +1,4 @@
-// How to implement Binary Search in Javascript in a Ordered Integer Array
+// How to implement Binary Search in a Ordered Integer Array using Javascript
 
 // Search with basic loop
 const search = (array, target) => {
