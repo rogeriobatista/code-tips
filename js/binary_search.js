@@ -20,7 +20,7 @@ const search = (array, target) => {
 const binarySearch = (array, target) => {
     let leftPointer = 0
     let rightPointer = array.length - 1
-    let middlePoint = Math.floor((leftPointer + rightPointer) / 2)
+    let middlePoint = getMiddlePoint(leftPointer, rightPointer)
 
     while(array.length > middlePoint) {
 
@@ -34,9 +34,11 @@ const binarySearch = (array, target) => {
 
         if (leftPointer > rightPointer) return -1
 
-        middlePoint = Math.floor((leftPointer + rightPointer) / 2)
+        middlePoint = getMiddlePoint(leftPointer, rightPointer)
     }
 }
+
+const getMiddlePoint = (leftPointer, rightPointer) => Math.floor((leftPointer + rightPointer) / 2)
 
 const array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
