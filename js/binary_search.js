@@ -1,3 +1,5 @@
+
+
 // How to implement Binary Search in a Ordered Integer Array using Javascript
 
 // Search with basic loop
@@ -39,6 +41,9 @@ const binarySearch = (array, target) => {
 }
 
 const getMiddlePoint = (leftPointer, rightPointer) => Math.floor((leftPointer + rightPointer) / 2)
+
+
+
 
 const array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
